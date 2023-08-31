@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disciplina</title>
+</head>
+<body>
+    Código: <input id="codigo" placeholder="Código da disciplina"> 
+    <br>
+    Nome: <input id="nome" placeholder="Nome da disciplina">
+    <br>
+    <button id="btnAdicionarDisciplina" onclick="controlador.inserir()">Adicionar Disciplina</button>
+
+    <ol id="listaDisciplinas">
+
+    </ol>
+
+    <script src="modelo/disciplina.js"></script>
+    <script src="repositorio/disciplina_repositorio.js"></script>
+    <script src="servico/disciplina_service.js"></script>
+    <script src="controlador/disciplina_controlador.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
